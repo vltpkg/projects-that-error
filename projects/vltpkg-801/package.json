@@ -1,0 +1,10 @@
+{
+  "name": "vltpkg-801",
+  "version": "1.0.0",
+  "dependencies": {
+    "tap": "^21.1.0"
+  },
+  "scripts": {
+    "test": "tap"
+  }
+}
