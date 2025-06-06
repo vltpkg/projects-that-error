@@ -1,0 +1,8 @@
+{
+  "name": "better-bar",
+  "type": "module",
+  "version": "0.0.1",
+  "dependencies": {
+    "vite": "6.3.5"
+  }
+}
