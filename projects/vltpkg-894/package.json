@@ -1,0 +1,10 @@
+{
+  "name": "vltpkg-894",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Luke Karrys <luke@lukekarrys.com>",
+  "dependencies": {
+    "eslint": "^9.29.0"
+  }
+}
