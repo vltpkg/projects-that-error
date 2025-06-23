@@ -1,0 +1,10 @@
+{
+  "name": "vltpkg-892",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Luke Karrys <luke@lukekarrys.com>",
+  "dependencies": {
+    "react": "catalog:"
+  }
+}
