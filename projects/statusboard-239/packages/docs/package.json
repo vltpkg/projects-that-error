@@ -1,0 +1,8 @@
+{
+  "name": "@repro/docs",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@scalar/api-reference-react": "^0.7.55"
+  }
+}

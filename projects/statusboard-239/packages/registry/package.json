@@ -1,0 +1,17 @@
+{
+  "name": "@repro/registry",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@hono/zod-openapi": "^0.19.10",
+    "@scalar/hono-api-reference": "^0.9.28",
+    "hono": "^4.10.8",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
