@@ -1,0 +1,10 @@
+{
+  "name": "workspace-bin-script-a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "workspace-bin-script-a": "index.js"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "workspace-bin-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "workspace-bin-script-a": "workspace:*",
+    "rimraf": "^6.0.1"
+  }
+}

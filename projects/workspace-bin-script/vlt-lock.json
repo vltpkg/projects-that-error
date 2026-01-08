@@ -1,0 +1,28 @@
+{
+  "lockfileVersion": 0,
+  "options": {},
+  "nodes": {
+    "·npm·@isaacs§balanced-match@4.0.1": [0,"@isaacs/balanced-match","sha512-yzMTt9lEb8Gv7zRioUilSglI0c0smZ9k5D65677DLWLtWJaXIS3CqcGyUFByYKlnUj6TkjLVs54fBl6+TiGQDQ=="],
+    "·npm·@isaacs§brace-expansion@5.0.0": [0,"@isaacs/brace-expansion","sha512-ZT55BDLV0yv0RBm2czMiZ+SqCGO7AvmOM3G/w2xhVPH+te0aKgFjmBvGlL1dH+ql2tgGO3MVrbb3jCKyvpgnxA=="],
+    "·npm·glob@13.0.0": [0,"glob","sha512-tvZgpqk6fz4BaNZ66ZsRaZnbHvP/jG3uKJvAZOwEVUL4RTA5nJeeLYfyN9/VA8NX/V3IBG+hkeuGpKjvELkVhA=="],
+    "·npm·lru-cache@11.2.4": [0,"lru-cache","sha512-B5Y16Jr9LB9dHVkh6ZevG+vAbOsNOYCX+sXvFWFu7B3Iz5mijW3zdbMyhsh8ANd2mSWBYdJgnqi+mL7/LrOPYg=="],
+    "·npm·minimatch@10.1.1": [0,"minimatch","sha512-enIvLvRAFZYXJzkCYG5RKmPfrFArdLv+R+lbQ53BmIMLIry74bjKzX6iHAm8WYamJkhSSEabrWN5D97XnKObjQ=="],
+    "·npm·minipass@7.1.2": [0,"minipass","sha512-qOOzS1cBTWYF4BH8fVePDBOO9iptMnGUEZwNc/cMWnTV2nVLZ7VoNWEPHkYczZA0pdoA7dl6e7FL659nX9S2aw=="],
+    "·npm·package-json-from-dist@1.0.1": [0,"package-json-from-dist","sha512-UEZIS3/by4OC8vL3P2dTXRETpebLI2NiI5vIrjaD/5UtrkFX/tNbwjTSRAGC/+7CAo2pIcBaRgWmcBBHcsaCIw=="],
+    "·npm·path-scurry@2.0.1": [0,"path-scurry","sha512-oWyT4gICAu+kaA7QWk/jvCHWarMKNs6pXOGWKDTr7cw4IGcUbW+PeTfbaQiLGheFRpjo6O9J0PmyMfQPjH71oA=="],
+    "·npm·rimraf@6.1.2": [0,"rimraf","sha512-cFCkPslJv7BAXJsYlK1dZsbP8/ZNLkCAQ0bi1hf5EKX2QHegmDFEFA6QhuYJlk7UDdc+02JjO80YSOrWPpw06g==",null,null,null,null,null,{  "rimraf": "dist/esm/bin.mjs"}]
+  },
+  "edges": {
+    "file·. rimraf": "prod ^6.0.1 ·npm·rimraf@6.1.2",
+    "file·. workspace-bin-script-a": "prod workspace:* workspace·a",
+    "·npm·@isaacs§brace-expansion@5.0.0 @isaacs/balanced-match": "prod ^4.0.1 ·npm·@isaacs§balanced-match@4.0.1",
+    "·npm·glob@13.0.0 minimatch": "prod ^10.1.1 ·npm·minimatch@10.1.1",
+    "·npm·glob@13.0.0 minipass": "prod ^7.1.2 ·npm·minipass@7.1.2",
+    "·npm·glob@13.0.0 path-scurry": "prod ^2.0.0 ·npm·path-scurry@2.0.1",
+    "·npm·minimatch@10.1.1 @isaacs/brace-expansion": "prod ^5.0.0 ·npm·@isaacs§brace-expansion@5.0.0",
+    "·npm·path-scurry@2.0.1 lru-cache": "prod ^11.0.0 ·npm·lru-cache@11.2.4",
+    "·npm·path-scurry@2.0.1 minipass": "prod ^7.1.2 ·npm·minipass@7.1.2",
+    "·npm·rimraf@6.1.2 glob": "prod ^13.0.0 ·npm·glob@13.0.0",
+    "·npm·rimraf@6.1.2 package-json-from-dist": "prod ^1.0.1 ·npm·package-json-from-dist@1.0.1"
+  }
+}
